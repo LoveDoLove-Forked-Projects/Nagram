@@ -18,12 +18,7 @@ import java.util.Locale;
 
 import tw.nekomimi.nekogram.config.CellGroup;
 import tw.nekomimi.nekogram.config.ConfigItem;
-import tw.nekomimi.nekogram.config.cell.AbstractConfigCell;
-import tw.nekomimi.nekogram.config.cell.ConfigCellCustom;
-import tw.nekomimi.nekogram.config.cell.ConfigCellSelectBox;
-import tw.nekomimi.nekogram.config.cell.ConfigCellTextCheck;
-import tw.nekomimi.nekogram.config.cell.ConfigCellTextDetail;
-import tw.nekomimi.nekogram.config.cell.ConfigCellTextInput;
+import tw.nekomimi.nekogram.config.cell.*;
 
 public class BaseNekoXSettingsActivity extends BaseFragment {
     protected BlurredRecyclerView listView;
@@ -78,7 +73,9 @@ public class BaseNekoXSettingsActivity extends BaseFragment {
     }
 
     protected String getRowKey(AbstractConfigCell row) {
-        if (row instanceof ConfigCellTextCheck) {
+        if (row instanceof WithKey) {
+            return ((WithKey) row).getKey();
+        } else if (row instanceof ConfigCellTextCheck) {
             return ((ConfigCellTextCheck) row).getKey();
         } else if (row instanceof ConfigCellSelectBox) {
             return ((ConfigCellSelectBox) row).getKey();
@@ -88,6 +85,8 @@ public class BaseNekoXSettingsActivity extends BaseFragment {
             return ((ConfigCellTextInput) row).getKey();
         } else if (row instanceof ConfigCellCustom) {
             return ((ConfigCellCustom) row).getKey();
+        } else if (row instanceof ConfigCellAutoTextCheck) {
+            return ((ConfigCellAutoTextCheck) row).getKey();
         }
         return null;
     }
@@ -138,11 +137,12 @@ public class BaseNekoXSettingsActivity extends BaseFragment {
             var builder = new AlertDialog.Builder(context);
             builder.setTitle(LocaleController.getString("ImportSettings", R.string.ImportSettings));
             builder.setMessage(LocaleController.getString("ImportSettingsAlert", R.string.ImportSettingsAlert));
-            builder.setNegativeButton(LocaleController.getString("Cancel", R.string.Cancel), null);
+            builder.setNegativeButton(LocaleController.getString("Cancel", R.string.Cancel), (dialogInter, i) -> scrollToRow(key, unknown));
             builder.setPositiveButton(LocaleController.getString("Import", R.string.Import), (dialogInter, i) -> {
                 config.changed(new_value);
                 config.saveConfig();
                 updateRows();
+                scrollToRow(key, unknown);
             });
             builder.show();
         } else {
