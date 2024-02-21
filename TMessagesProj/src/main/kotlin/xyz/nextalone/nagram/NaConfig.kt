@@ -500,6 +500,48 @@ object NaConfig {
             ConfigItem.configTypeInt,
             0
         )
+    val disableMarkdown =
+        addConfig(
+            "DisableMarkdown",
+            ConfigItem.configTypeBool,
+            false
+        )
+    val disableClickProfileGalleryView =
+        addConfig(
+            "DisableClickProfileGalleryView",
+            ConfigItem.configTypeBool,
+            false
+        )
+    val showSmallGIF =
+        addConfig(
+            "ShowSmallGIF",
+            ConfigItem.configTypeBool,
+            false
+        )
+    val disableClickCommandToSend =
+        addConfig(
+            "DisableClickCommandToSend",
+            ConfigItem.configTypeBool,
+            false
+        )
+    val disableDialogsFloatingButton =
+        addConfig(
+            "DisableDialogsFloatingButton",
+            ConfigItem.configTypeBool,
+            false
+        )
+    val disableFlagSecure =
+        addConfig(
+            "DisableFlagSecure",
+            ConfigItem.configTypeBool,
+            true
+        )
+    val centerActionBarTitle =
+        addConfig(
+            "CenterActionBarTitle",
+            ConfigItem.configTypeBool,
+            false
+        )
 
     private fun addConfig(
         k: String,
