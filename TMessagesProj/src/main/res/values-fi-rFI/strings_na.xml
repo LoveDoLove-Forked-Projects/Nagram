@@ -130,6 +130,7 @@
     <string name="PushServiceTypeInApp">Sovelluksessa</string>
     <string name="PushServiceTypeFCM">Google FCM</string>
     <string name="PushServiceTypeUnified">Yhdistetty Työntö</string>
+    <string name="PushServiceTypeMicroG">MikroG</string>
     <string name="PushServiceTypeInAppDialog">Näytä kotimaiset ilmoitukset</string>
     <string name="PushServiceTypeUnifiedGateway">Yhdistetty Push-Yhdyskäytävä</string>
     <string name="SendMp4DocumentAsVideo">Lähetä mp4-asiakirja videona</string>
@@ -138,4 +139,5 @@
     <string name="DisableChannelMuteButton">Poista kanavan mykistyspainike käytöstä</string>
     <string name="DisablePreviewVideoSoundShortcut">Poista esikatseluvideon pikakuvake käytöstä</string>
     <string name="DisablePreviewVideoSoundShortcutNotice">Poista äänenvoimakkuusnäppäimet käytöstä, jos haluat ottaa esikatsella videon ääntä</string>
+    <string name="DisableAutoWebLogin">Poista automaattinen web kirjautuminen käytöstä</string>
 </resources>

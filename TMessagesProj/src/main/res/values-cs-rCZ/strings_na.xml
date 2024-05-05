@@ -130,6 +130,7 @@
     <string name="PushServiceTypeInApp">V aplikaci</string>
     <string name="PushServiceTypeFCM">Google FCM</string>
     <string name="PushServiceTypeUnified">Sjednocený posun</string>
+    <string name="PushServiceTypeMicroG">MikroG</string>
     <string name="PushServiceTypeInAppDialog">Zobrazit rezidentní oznámení</string>
     <string name="PushServiceTypeUnifiedGateway">Sjednocená posuvná brána</string>
     <string name="SendMp4DocumentAsVideo">Poslat dokument mp4 jako video</string>
@@ -138,4 +139,5 @@
     <string name="DisableChannelMuteButton">Zakázat tlačítko ztlumit kanál</string>
     <string name="DisablePreviewVideoSoundShortcut">Zakázat zástupce zvuku videa</string>
     <string name="DisablePreviewVideoSoundShortcutNotice">Zakázat tlačítka hlasitosti pro zapnutí náhledu zvuku videa</string>
+    <string name="DisableAutoWebLogin">Zakázat automatické přihlášení k webu</string>
 </resources>

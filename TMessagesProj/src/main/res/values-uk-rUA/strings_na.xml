@@ -130,6 +130,7 @@
     <string name="PushServiceTypeInApp">В додатку</string>
     <string name="PushServiceTypeFCM">Google FCM</string>
     <string name="PushServiceTypeUnified">Одноразове штовхання</string>
+    <string name="PushServiceTypeMicroG">МікроГ</string>
     <string name="PushServiceTypeInAppDialog">Показувати сповіщення резидента</string>
     <string name="PushServiceTypeUnifiedGateway">Уніфікований Push-шлюз</string>
     <string name="SendMp4DocumentAsVideo">Відправити mp4 документ як відео</string>
@@ -138,4 +139,5 @@
     <string name="DisableChannelMuteButton">Вимкнути кнопку вимкнення звуку каналу</string>
     <string name="DisablePreviewVideoSoundShortcut">Вимкнути ярлик під час перегляду відео звукового звуку</string>
     <string name="DisablePreviewVideoSoundShortcutNotice">Вимкніть клавіші гучності, щоб увімкнути попередній перегляд відео звуку</string>
+    <string name="DisableAutoWebLogin">Вимкнути автоматичний веб-логін</string>
 </resources>

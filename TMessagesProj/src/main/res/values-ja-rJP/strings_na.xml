@@ -130,6 +130,7 @@
     <string name="PushServiceTypeInApp">アプリ内</string>
     <string name="PushServiceTypeFCM">Google FCM</string>
     <string name="PushServiceTypeUnified">統一されたプッシュ</string>
+    <string name="PushServiceTypeMicroG">MicroG</string>
     <string name="PushServiceTypeInAppDialog">常駐通知を表示</string>
     <string name="PushServiceTypeUnifiedGateway">Unified Push Gateway</string>
     <string name="SendMp4DocumentAsVideo">mp4ドキュメントを動画として送信</string>
@@ -138,4 +139,5 @@
     <string name="DisableChannelMuteButton">チャンネルミュートボタンを無効にする</string>
     <string name="DisablePreviewVideoSoundShortcut">プレビュービデオサウンドのショートカットを無効にする</string>
     <string name="DisablePreviewVideoSoundShortcutNotice">ビデオのプレビューを有効にするには音量キーを無効にしてください</string>
+    <string name="DisableAutoWebLogin">自動ウェブログインを無効にする</string>
 </resources>

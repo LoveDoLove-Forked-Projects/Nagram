@@ -130,6 +130,7 @@
     <string name="PushServiceTypeInApp">Dans l\'application</string>
     <string name="PushServiceTypeFCM">Google FCM</string>
     <string name="PushServiceTypeUnified">Push unifié</string>
+    <string name="PushServiceTypeMicroG">MicroG</string>
     <string name="PushServiceTypeInAppDialog">Afficher les notifications des résidents</string>
     <string name="PushServiceTypeUnifiedGateway">Passerelle Push unifiée</string>
     <string name="SendMp4DocumentAsVideo">Envoyer le document mp4 en tant que vidéo</string>
@@ -138,4 +139,5 @@
     <string name="DisableChannelMuteButton">Désactiver le bouton de mise en sourdine</string>
     <string name="DisablePreviewVideoSoundShortcut">Désactiver le raccourci de l\'aperçu du son vidéo</string>
     <string name="DisablePreviewVideoSoundShortcutNotice">Désactiver les boutons de volume pour activer la prévisualisation du son vidéo</string>
+    <string name="DisableAutoWebLogin">Désactiver la connexion web automatique</string>
 </resources>

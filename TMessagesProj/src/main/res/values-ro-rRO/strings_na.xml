@@ -130,6 +130,7 @@
     <string name="PushServiceTypeInApp">În aplicație</string>
     <string name="PushServiceTypeFCM">Google FCM</string>
     <string name="PushServiceTypeUnified">Push unificat</string>
+    <string name="PushServiceTypeMicroG">MicroG</string>
     <string name="PushServiceTypeInAppDialog">Arată notificările rezidenților</string>
     <string name="PushServiceTypeUnifiedGateway">Gateway Push Unificat</string>
     <string name="SendMp4DocumentAsVideo">Trimite documentul mp4 ca video</string>
@@ -138,4 +139,5 @@
     <string name="DisableChannelMuteButton">Dezactivare buton mut canal</string>
     <string name="DisablePreviewVideoSoundShortcut">Dezactivează scurtătură sunet previzualizare</string>
     <string name="DisablePreviewVideoSoundShortcutNotice">Dezactivează tastele de volum pentru a activa previzualizarea sunetului video</string>
+    <string name="DisableAutoWebLogin">Dezactivează autentificarea automată pe web</string>
 </resources>

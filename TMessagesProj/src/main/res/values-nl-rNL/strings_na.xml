@@ -130,6 +130,7 @@
     <string name="PushServiceTypeInApp">In de App</string>
     <string name="PushServiceTypeFCM">Google FCM</string>
     <string name="PushServiceTypeUnified">Gecombineerde Push</string>
+    <string name="PushServiceTypeMicroG">MicroG</string>
     <string name="PushServiceTypeInAppDialog">Toon inactieve meldingen</string>
     <string name="PushServiceTypeUnifiedGateway">Gecombineerde Push Gateway</string>
     <string name="SendMp4DocumentAsVideo">Stuur mp4-document als video</string>
@@ -138,4 +139,5 @@
     <string name="DisableChannelMuteButton">Kanaaldemping knop uitschakelen</string>
     <string name="DisablePreviewVideoSoundShortcut">Snelkoppeling voor preview video uitschakelen</string>
     <string name="DisablePreviewVideoSoundShortcutNotice">Volumeknoppen uitschakelen om preview videogeluid in te schakelen</string>
+    <string name="DisableAutoWebLogin">Automatisch web inloggen uitschakelen</string>
 </resources>
