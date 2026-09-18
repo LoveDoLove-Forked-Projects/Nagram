@@ -6084,7 +6084,7 @@ public class MessageObject {
                         }
                     }
                 }
-            } else if (messageOwner.translated) {
+            } else if (messageOwner.translated && !TextUtils.isEmpty(messageOwner.translatedMessage)) {
                 messageText = messageOwner.translatedMessage;
             } else {
                 if (messageOwner.message != null) {
@@ -10189,6 +10189,9 @@ public class MessageObject {
     }
 
     public boolean canSetReaction() {
+        if (isEphemeral()) {
+            return false;
+        }
         if (messageOwner instanceof TLRPC.TL_messageService)
             return messageOwner.reactions_are_possible;
         return true;
